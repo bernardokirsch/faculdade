@@ -1,0 +1,19 @@
+programa soma_quadrados
+var
+	n1, n2, n3, soma: inteiro;
+início
+	escreva ("PROGRAMA QUE SOMA OS QUADRADOS DE TRÊS NÚMEROS");
+
+	escreva ("Informe o primeiro número a ser somado: ");
+	leia (n1);
+
+	escreva ("Informe o segundo número a ser somado: ");
+	leia (n2);
+
+	escreva ("Informe o terceiro número a ser somado: ");
+	leia (n3);
+
+	soma = (n1 * n1) + (n2 * n2) + (n3 * n3);
+
+	escreva ("A soma dos quadrados dos números é: ", soma);
+fim

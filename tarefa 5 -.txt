@@ -1,0 +1,38 @@
+programa calculadora_simples
+var
+	n1, n2, soma, subt, mult, divi: real;
+	opcao_operacao: inteiro;
+início
+	escreva ("CALCULADORA SIMPLES");
+	
+	escreva ("Informe o primeiro número: ");
+	leia (n1);
+
+	escreva ("Informe o segundo número: ");
+	leia (n2);
+
+	escreva ("Informe a operação desejada");
+	escreva (" 1 - Adição");
+	escreva (" 2 - Subtração");
+	escreva (" 3 - Multiplicação");
+	escreva (" 4 - Divisão");
+	escreva (" 0 - Sair");
+
+	leia (opcao_operacao);
+	caso (opcao_operacao) seja:
+	1:
+		soma = n1 + n2;
+		escreva ("O resultado da operação de soma é: ", soma);
+	2:
+		subt = n1 - n2;
+		escreva ("O resultado da operação de subtração é: ", subt);
+	3:
+		mult = n1 * n2;
+		escreva ("O resultado da operação de multiplicação é: ", mult);
+	4:
+		divi = n1 / n2;
+		escreva ("O resultado da operação de divisão é: ", divi);
+	senão
+		escreva ("Você saiu");
+	fim_caso
+fim

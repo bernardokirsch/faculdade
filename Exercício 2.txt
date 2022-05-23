@@ -1,0 +1,16 @@
+programa MediaIdadeTurma20
+var
+	media: real;
+	i, idade: inteiro;
+	idade_total = 0: inteiro;
+início
+	para i de 1 até 20 faça
+		escreva ("Informe a idade do aluno: ");
+		leia (idade);
+		idade_total = idade_total + idade;
+	fim_para
+
+	media = idade_total / 20;
+
+	escreva ("A média de idade da turma é de: ", media, " anos");
+fim

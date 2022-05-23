@@ -1,0 +1,13 @@
+programa par_ou_impar
+var
+	numero, resultado: inteiro;
+inicío
+	escreva ("Informe um número para saber se é par ou ímpar: ");
+	leia (numero);
+
+	se (numero % 2 == 0) então
+		escreva ("O número informado é par");
+	senão
+		escreva ("O número informado é ímpar");
+	fim_se
+fim

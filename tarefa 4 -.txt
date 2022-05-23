@@ -1,0 +1,21 @@
+programa maior_valor_de_3
+var
+	n1, n2, n3: real;
+início
+	escreva ("Informe o primeiro número: ");
+	leia (n1);
+	
+	escreva ("Informe o segundo número: ");
+	leia (n2);
+
+	escreva ("Informe o terceiro número: ");
+	leia (n3);
+
+	se (n1 > n2) e (n1 > n3) então
+		escreva ("Este é o maior número informado: ", n1);
+	senão se (n2 > n1) e (n2 > n3) então
+		escreva ("Este é o maior número informado: ", n2);
+	senão
+		escreva ("Este é o maior número informado: ", n3);
+	fim_se
+fim

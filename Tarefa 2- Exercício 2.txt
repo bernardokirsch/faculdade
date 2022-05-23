@@ -1,0 +1,18 @@
+programa troca_valores
+var
+	valorA, valorB, auxiliar: real;
+início
+	escreva ("Digite um valor para ser trocado: ");
+	leia (valorA);
+
+	escreva ("Digite o outro valor para ser trocado: ");
+	leia (valorB);
+ 
+	escreva ("Primeiro valor antes de ser trocado: ", valorA, "e o segundo valor antes de ser trocado: ", valorB);
+
+	valorA = auxiliar;
+	valorB = valorA;
+	auxiliar = valorB; 
+
+	escreva ("Primeiro valor após a troca: ", valorA, "e o segundo valor após a troca: ", valorB);
+fim

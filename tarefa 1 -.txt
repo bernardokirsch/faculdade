@@ -1,0 +1,16 @@
+programa SomaMaiorQue50
+var
+	n1, n2, resultado: inteiro;
+início
+	escreva ("Informe o primeiro valor a ser somado: ");
+	leia (n1);
+	
+	escreva ("Informe o segundo valor a ser somado: ");
+	leia (n2);
+
+	resultado = n1 + n2;
+
+	se (resultado > 50) então
+		escreva ("O resultado da soma é: ", resultado);
+	fim_se
+fim

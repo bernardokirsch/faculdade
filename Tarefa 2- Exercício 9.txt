@@ -1,0 +1,13 @@
+programa duracao_em_segundos_para_horas
+var
+	total_segundos, segundos, minutos, horas: inteiro;
+início
+	escreva ("Informe a duração do filme em segundos: ");
+	leia (total_segundos);
+	
+	horas = total_segundos / 3600;
+	minutos = (total_segundos - (horas * 3600)) / 60;
+	segundos = total_segundos % 60;
+
+	escreva ("Tempo do filme: ", horas, ":", minutos, ":", segundos);
+fim

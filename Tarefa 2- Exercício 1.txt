@@ -1,0 +1,16 @@
+programa volume_lata
+const
+	PI = 3.14;
+var
+	volume, raio, altura: real;
+início
+	escreva ("Informe o valor do raio: ");
+	leia (raio);
+
+	escreva ("Informe o valor da altura: ");
+	leia (altura);
+	
+	volume = PI * (raio * raio) * altura;
+	
+	escreva ("O volume da lata é: ", volume, "centímetros");
+fim

@@ -1,0 +1,10 @@
+programa SomaMenores10
+var
+	soma = 0, i = 1: inteiro;
+início
+	enquanto (i < 10) faça
+		soma = soma + i;
+		i++;
+	fim_enquanto
+	escreva ("A soma dos números positivos menores que 10 é: ", soma);
+fim

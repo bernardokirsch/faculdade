@@ -1,0 +1,13 @@
+programa quantidade_combustível
+const
+	media = 12;
+var
+	distancia, litros_usados: real;
+início
+	escreva ("Informe a distância do trajeto em quilômetros: ");
+	leia (distancia);
+	
+	litros_usados = distancia / media;
+
+	escreva ("A quantidade de combustível usado é de: ", litros_usados, "litros");
+fim

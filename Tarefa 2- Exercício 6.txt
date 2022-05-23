@@ -1,0 +1,18 @@
+programa real_para_dolar
+var
+	cot_dolar, valorReal, valorDolar: real;
+início
+	escreva ("Conversor de real para dólar");
+
+	escreva ("Informe o valor da cotação do dolár: ");
+	leia (cot_dolar);
+
+	escreva ("Informe o valor em reais para ser convertido: ");
+	leia (valorReal);
+	
+	valorDolar = valorReal / cot_dolar;
+
+	escreva ("Cotação do dolár: R$ ", cot_dolar);
+	escreva ("Valor em real: R$ ", valorReal);
+	escreva ("Valor em dólar: $ ", valorDolar);
+fim

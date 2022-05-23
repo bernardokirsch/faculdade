@@ -1,0 +1,23 @@
+programa quatro_operações
+var
+	num1, num2, r_soma, r_subt, r_mult, r_divi: real;
+início
+	escreva ("Este programa faz as 4 operações aritméticas entre 2 números");
+
+	escreva ("Digite o primeiro número: ");
+	leia (num1);
+
+	escreva ("Digite o segundo número: ");
+	leia (num2);
+
+	r_soma = num1 + num2;
+	r_subt = num1 - num2;
+	r_mult = num1 * num2;
+	r_divi = num1 / num2;
+
+	escreva ("Aqui estão as 4 operações entre os números informados: ");
+	escreva (num1, "+", num2, "=", r_soma);
+	escreva (num1, "-", num2, "=", r_subt);
+	escreva (num1, "*", num2, "=", r_mult);
+	escreva (num1, "/", num2, "=", r_divi);
+fim

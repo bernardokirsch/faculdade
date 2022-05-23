@@ -1,0 +1,11 @@
+programa idade_em_dias
+var
+	dias, meses, anos, idade_dias: inteiro;
+início
+	escreva ("Informe sua idade especificando os anos, meses e dias: ");
+	leia (dias, meses, dias);
+
+	idade_dias = (idade * 365) + (meses * 30) + dias;
+
+	escreva ("Sua idade é: ", idade_dias, " dias");
+fim
