@@ -1,2 +1,2 @@
 # faculdade
-Códigos das atividades/exercícios feitos na faculdade
+Códigos das atividades e exercícios feitos no primeiro semestre da faculdade
